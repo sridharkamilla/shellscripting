@@ -1,10 +1,10 @@
-#!/bin/Bash
+#!/bin/bash
 
 Number1=$1
-Number2=$2
-Number3=$3
+NUMBER3=$3
+NUMBER2=$2
+# I need to run a command inside shell to add these 2 numbers
+SUM=$((NUMBER1+NUMBER2+NUMBER3))
 
-SUM=$((Number1+Number2+Number3))
-#SUM=$((NUMBER1+NUMBER2))
+echo "Addition of 3 numbers is: $SUM"
 
-Echo " : Sum of three number :: &SUM"
